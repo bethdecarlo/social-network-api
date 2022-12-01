@@ -1,0 +1,31 @@
+{
+    "name": "social-network-api",
+    "version": "1.0.0",
+    "description": "a social network back end application",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "seed": "node utils/seed",
+      "heroku-postbuild": "node utils/seed.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bethdecarlo/social-network-api"
+    },
+    "keywords": [
+      "Mongoose",
+      "MongoDB",
+      "Express"
+    ],
+    "author": "Mateo Wallace",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bethdecarlo/social-network-api/issues"
+    },
+    "homepage": "https://github.com/bethdecarlo/social-network-api#readme",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^6.0.13"
+    }
+  }
+  
